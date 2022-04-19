@@ -1,4 +1,4 @@
 const Ajolonauta = require('./app/Ajolonauta')
 
 let pedrito = new Ajolonauta('Pedrito')
-console.log(woopa.name)
+console.log(pedrito.name)
