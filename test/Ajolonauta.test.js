@@ -1,12 +1,14 @@
+let Ajolonauta = require('./../app/Ajolonauta')
 
 
 
-
-describe('Esto es una suite de pruebas',() => {
-    test('Caso de prueba 1', () => {
+describe('Prueba de unidad Ajolonauta',() => {
+    test('Caso de prueba 1: creación de objeto', () => {
         //Aqui tu puedes usar el codigo como lo desee utilizar
-        const result = 1 + 2
+        let pedrito = new Ajolonauta('Pedrito')
+
+
         // Validar el resultado esperado
-        expect(result).toBe(3);
+        expect(pedrito.name).toBe('Pedrito');
     })
 })
